@@ -1,5 +1,8 @@
 var nguoiDungService = new NguoiDungService();
 
+function themTestGit(){
+    console.log("them nguoi dung 2")
+}
 function getListUser(){
     nguoiDungService.layDanhSachNguoiDung()
     .then(function(result){
